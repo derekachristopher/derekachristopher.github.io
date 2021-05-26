@@ -1,1 +1,0 @@
-# derekachristopher.github.io

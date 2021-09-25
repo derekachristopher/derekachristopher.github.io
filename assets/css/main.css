@@ -101,7 +101,9 @@ input, select, textarea {
 	body {
 		/* background: #312450; */
 		/* surprise motherfucker */
-		background: #404080;
+		/* background: #404080; */
+		/* background: WhiteSmoke; */
+		background: White;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,9 +122,10 @@ input, select, textarea {
 	body, input, select, textarea {
 		/* color: rgba(255, 255, 255, 0.55); */
 		/* surprise motherfucker */
-		color: rgba(0, 0, 0, 0.60);
+		color: rgba(0, 0, 0, 0.90);
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16.5pt;
+		/* font-size: 16.5pt; */
+		font-size: 14pt;
 		font-weight: normal;
 		line-height: 1.75;
 	}
@@ -167,11 +170,13 @@ input, select, textarea {
 		a:hover {
 			border-bottom-color: transparent;
 			/* color: #ffffff; */
-			color: #404080;
+			/* color: #404080; */
+			color: #00C7FB;
 		}
 
 	strong, b {
-		color: #ffffff;
+		/* color: #ffffff; */
+		color: black;
 		font-weight: bold;
 	}
 
@@ -180,14 +185,24 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
+
+	/* h1, h2, h3, h4, h5, h6 {
+		/* color: #ffffff; */
+		/* color: #000000;
+		font-weight: bold;
+		line-height: 1.5;
+		/* margin: 0 0 0.5em 0; */
+		/* margin: 0 0 1em 0; */
+	/* }  */
 
 	h1, h2, h3, h4, h5, h6 {
 		/* color: #ffffff; */
 		color: #000000;
 		font-weight: bold;
 		line-height: 1.5;
+		/* margin: 0 0 0.5em 0; */
 		margin: 0 0 0.5em 0;
 	}
 
@@ -226,18 +241,24 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.75em;
+		/* font-size: 2em; */
+		/* text-align: center; */
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 1.4em;
+		/* font-size: 1.35em; */
+		text-align: center;
 	}
 
 	h4 {
 		font-size: 1em;
+		/* font-size: 1.2em; */
 	}
 
 	h5 {
 		font-size: 0.8em;
+		/* font-size: 0.75em; */
 	}
 
 	h6 {
@@ -2374,6 +2395,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
+			/* color: Brown; */
 			/* background: #312450; */
 			background: #404080;
 		}
@@ -2462,6 +2484,7 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
+			/* background: Brown; */
 			border-color: #ffffff;
 			color: #b74e91;
 			content: '\f00c';
@@ -3020,7 +3043,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		/* min-height: 22.5em; */
+		/* min-height: 44.5em; */
 		/* surprise motherfucker */
 		min-height: 2.5em;
 	}
@@ -3061,7 +3084,8 @@ input, select, textarea {
 
 		.spotlights > section > .content {
 			/* padding: 4em 5em 2em 5em ; */
-			padding: 2.5em 5em 2.5em 2.5em ;
+			/* padding: 2.5em 5em 2.5em 2.5em ; */
+			padding: 0.5em 0.5em 0.5em 2em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3237,10 +3261,11 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
-			/* padding: 0.5em 0.5em 0.3em 0.5em ; */
+			/* padding: 5em 5em 3em 5em ; */
+			padding: 2em 0.1em 0.3em 1.5em ;
 			max-width: 100%;
 			/* max-width: 5%; */
+			/* width: 75em; */
 			width: 75em;
 		}
 
@@ -3278,6 +3303,7 @@ input, select, textarea {
 			/* background-color: #5e42a6; */
 			/* surprise motherfucker */
 			background-color: #FFFFFF;
+			/* background-color: Brown; */
 		}
 
 		.wrapper.style1-alt {
@@ -3424,6 +3450,7 @@ input, select, textarea {
 		#header > .title {
 			border: 0;
 			color: #ffffff;
+			/* color: Brown; */
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;

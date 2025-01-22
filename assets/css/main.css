@@ -2589,7 +2589,8 @@ input, select, textarea {
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					/* color: #5052b5; */
+					color: #d8344f; /* messing with this 01/22/2025 */
 				}
 
 				.wrapper.style2-alt .icon.major:before {
@@ -3313,7 +3314,9 @@ input, select, textarea {
 
 		.wrapper.style2 {
 			/* background-color: #5052b5; */
-			background-color: #CCCCE9;
+			/* background-color: #CCCCE9; */
+			/* background-color: #FFFFFF; */ /* messing with this 01/22/2025 */
+			background-color: #f3f3f3; /* messing with this 01/22/2025 */
 		}
 
 		.wrapper.style2-alt {
@@ -3602,7 +3605,8 @@ input, select, textarea {
 		/* padding: 2.5em 2.5em 0.5em 2.5em ; */
 		padding: 0.5em 2.5em 12.5em 2.5em ;
 		/* background: #312450; */
-		background: #404080;
+		/* background: #404080; */
+		background: #000000; /* messing with this 01/22/2025 */
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3840,14 +3844,19 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				/* background: #3c2c62; */
+				background: #FFFFFF; /* messing with this 01/22/2025 */
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+				/* background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: linear-gradient(to right, #5e42a6, #b74e91); */ /* messing with this 01/22/2025 */
+				background-image: -moz-linear-gradient(to right, #bd2929, #ec7d7d);
+				background-image: -webkit-linear-gradient(to right, #bd2929, #ec7d7d);
+				background-image: -ms-linear-gradient(to right, #bd2929, #ec7d7d);
+				background-image: linear-gradient(to right, #bd2929, #ec7d7d);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
